@@ -1,0 +1,95 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+}
+.animeList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: "Gill Sans MT";
+    background-color: #000000;
+
+}
+.animeItem {
+    position: relative; 
+    width: 400px; 
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Gill Sans MT";
+    background-color: #000000b1;
+
+
+  }
+  
+  .animeItem div {
+    height: 600px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000000b1;
+
+  }
+  
+  .animeName {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    transform: translateX(-100%);
+    transition: transform 0.3s;
+
+  }
+  
+  .animeItem:hover .animeName {
+    transform: translateX(0); 
+}
+  
+  .animeName h2 {
+    margin: 0;
+    font-size: 16px;
+  }
+  .animeItem .button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #660000;
+    color: #fff;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+
+  }
+  .animeItem:hover .button {
+    transform: translateY(0);
+  }
+  .animeTitle {
+    font-size: 24px;
+    color: #ffffff; 
+    margin-bottom: 20px;
+  }
+  .head {
+    font-size: 24px;
+    color: #ffffff; 
+    margin-bottom: 20px;
+    background-color: #000000b1;
+  }
+  .animeName p {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  
+  
+  
+  
