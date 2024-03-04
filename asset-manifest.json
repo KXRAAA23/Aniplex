@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Aniplex/static/css/main.8b5f1454.css",
+    "main.js": "/Aniplex/static/js/main.203b197b.js",
+    "static/media/SL.jpg": "/Aniplex/static/media/SL.2d271f9e8cb0ef551932.jpg",
+    "static/media/anime.jpg": "/Aniplex/static/media/anime.b6135be1a952103bf202.jpg",
+    "static/media/OnePiece.jpg": "/Aniplex/static/media/OnePiece.00fc69ddf2b2561c6f56.jpg",
+    "static/media/DS.jpg": "/Aniplex/static/media/DS.231627c26e4c6f0ed603.jpg",
+    "static/media/Jjk.jpg": "/Aniplex/static/media/Jjk.909924cd8344950a418f.jpg",
+    "static/media/VS.jpg": "/Aniplex/static/media/VS.891c31f6e2866c04995f.jpg",
+    "static/media/Opm.jpg": "/Aniplex/static/media/Opm.23f3fbb309e7e6f6d70b.jpg",
+    "index.html": "/Aniplex/index.html",
+    "main.8b5f1454.css.map": "/Aniplex/static/css/main.8b5f1454.css.map",
+    "main.203b197b.js.map": "/Aniplex/static/js/main.203b197b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b5f1454.css",
+    "static/js/main.203b197b.js"
+  ]
+}
